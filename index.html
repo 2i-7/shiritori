@@ -9,11 +9,14 @@
     <div class="title">
         <h1>しりとり</h1>
     </div>
-    <div class="previous">
-        <h2>前の単語：<span id="previousWord">-</span></h2>
-    </div>
-    <div class="input">
-        <input type="text" class="text" id="inputWord">
+    <div class="text-container">
+        <div class="previous">
+            <h2>前の単語：<span id="output">しりとり</span></h2>
+        </div>
+        <div class="now">
+            <input type="text" id="input">
+            <p id="errorMessage" class="error">入力が間違っています。<br>正しい値を入力してください</p>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
